@@ -1,0 +1,93 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #000000;
+    --accent-color: #2196F3;
+    --title-header: #ffffff;
+    --button-background: #F5F4FA;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color:var(--title-header);
+}
+
+.page-footer {
+    background-color: #2F303A;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.logo-header {
+    color: var(--title-text-color);
+}
+
+.logo-footer {
+    color: var(--title-header);
+}
+
+.list {
+    list-style: none;
+}
+/*Site navigation*/
+.site-nav a {
+    color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+/*Site navigation footer*/
+.nav-footer a {
+    color: var(--title-header);
+}
+
+.nav-footer a:hover, 
+.nav-footer a:focus{
+    color:var(--accent-color);
+}
+
+.section-title {
+    color: #212121;
+}
+
+.button {
+    color: var(--button-background)
+    background-color: var()
+}
+
+.button.primary {
+    color: var(--title-header);
+    background-color: var(--accent-color);
+}
+
+.button.primary:hover,
+.button.primary:focus {
+    color: var(--title-text-color);
+    background-color: #188CE8;
+}
+
+.button.nav.portfolio {
+    color: var(--button-background) 
+    background-color: var()
+}
+
+.button.nav.portfolio:hover,
+.button.secondary:focus {
+    color: var(--title-header);
+    background-color: var(--accent-color);
+}
+
+.site.nav .link.current {
+    color: var(--accent-color);
+}
+
+/* основной цвет/ - #212121;
+
+/* вторичный цвет - #757575;
+
+/;заголовок на глвной - #FFFFFF
+
+цвет активных элементов - 2196F3*
