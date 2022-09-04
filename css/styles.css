@@ -9,6 +9,7 @@
 body {
     color: var(--primary-text-color);
     background-color:var(--title-header);
+    font-family: Roboto, sans-serif;
 }
 
 .page-footer {
@@ -17,22 +18,60 @@ body {
 
 .logo {
     color: var(--accent-color);
+    font-family: Raleway;
+    width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 .logo-header {
     color: var(--title-text-color);
+    font-family: Raleway;
+    font-family: Raleway;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
 }
 
 .logo-footer {
     color: var(--title-header);
+    font-family: Raleway;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
 }
 
 .list {
     list-style: none;
 }
 /*Site navigation*/
-.site-nav a {
+.site-nav a{
     color: #212121;
+        width: 45px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.3;
+        letter-spacing: 0.02em;
+        text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -42,6 +81,15 @@ body {
 /*Site navigation footer*/
 .nav-footer a {
     color: var(--title-header);
+        width: 231px;
+        height: 21px;
+        left: 215px;
+        top: 1739px;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        font-style: normal;
 }
 
 .nav-footer a:hover, 
@@ -51,11 +99,28 @@ body {
 
 .section-title {
     color: #212121;
+        width: 366px;
+        height: 42px;
+        left: 617px;
+        top: 966px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 .button {
-    color: var(--button-background)
-    background-color: var()
+    color: var(--button-background);
+    background-color: var();
+    font-family: inherit;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .button.primary {
@@ -70,8 +135,13 @@ body {
 }
 
 .button.nav.portfolio {
-    color: var(--button-background) 
-    background-color: var()
+    color: var(--title-text-color); 
+    background-color: #F5F4FA;
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    border-radius: 4px;
 }
 
 .button.nav.portfolio:hover,
@@ -83,6 +153,41 @@ body {
 .site.nav .link.current {
     color: var(--accent-color);
 }
+
+.site-nav.list .benefits {
+    width: 270px;
+    height: 72px;
+    left: 215px;
+    top: 800px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+    
+.site-nav.list .pos{
+    width: 130px;
+    height: 19px;
+    left: 285px;
+    top: 1951px;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.site-nav.list .type {
+    width: 322px;
+    height: 30px;
+    left: 639px;
+    top: 1050px;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
 
 /* основной цвет/ - #212121;
 
