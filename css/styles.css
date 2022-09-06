@@ -234,6 +234,19 @@ color: #212121;
     font-style: normal;
 }
 
+.portfolio-title {
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+
+.portfolio-description {
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
 /* основной цвет/ - #212121;
 
 /* вторичный цвет - #757575;
