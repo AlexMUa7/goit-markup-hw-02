@@ -137,6 +137,11 @@ body {
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
 }
 
 .button.primary:hover,
@@ -145,6 +150,7 @@ body {
 }
 
 .button.nav.portfolio {
+    font-family: 'Roboto';
     color: #212121;
     background-color: #F5F4FA;
     font-weight: 500;
@@ -152,6 +158,8 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     border-radius: 4px;
+    padding: 6px 22px;
+    display: inline-block;
 }
 
 .button.nav.portfolio:hover,
@@ -254,6 +262,16 @@ color: #212121;
 
 .link {
     text-decoration: none;
+}
+
+.container {
+    width: 1200 px;
+    padding-left: 15 px;
+    padding-right: 15 px;
+}
+
+.page-header {
+    background-color: #ffffff;
 }
 /* основной цвет/ - #212121;
 
