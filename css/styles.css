@@ -55,6 +55,10 @@ body {
 .list {
     list-style: none;
 }
+
+.portfolio-item {
+    list-style: none;
+}
 /*Site navigation*/
 .site-nav .link{
     color: #212121;
