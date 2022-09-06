@@ -10,6 +10,7 @@ body {
     color: var(--primary-text-color);
     background-color:var(--title-header);
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 .page-footer {
@@ -249,6 +250,10 @@ color: #212121;
         line-height: 1.88;
         letter-spacing: 0.03em;
         color: #757575;
+}
+
+.link {
+    text-decoration: none;
 }
 /* основной цвет/ - #212121;
 
